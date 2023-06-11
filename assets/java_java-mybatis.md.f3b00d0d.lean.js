@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,N as l}from"./chunks/framework.0799945b.js";const C=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"java/java-mybatis.md"}'),e={name:"java/java-mybatis.md"},t=l("",89),p=[t];function o(r,i,c,y,u,d){return n(),a("div",null,p)}const D=s(e,[["render",o]]);export{C as __pageData,D as default};
