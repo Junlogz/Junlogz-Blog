@@ -174,23 +174,4 @@ main方法执行:0
 <span class="line"><span style="color:#A6ACCD;">    </span><span style="color:#C792EA;">public</span><span style="color:#A6ACCD;"> </span><span style="color:#C792EA;">static</span><span style="color:#A6ACCD;"> </span><span style="color:#C792EA;">void</span><span style="color:#A6ACCD;"> </span><span style="color:#82AAFF;">main</span><span style="color:#89DDFF;">(</span><span style="color:#C792EA;">String</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">[]</span><span style="color:#A6ACCD;"> </span><span style="color:#A6ACCD;font-style:italic;">args</span><span style="color:#89DDFF;">)</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">{</span></span>
 <span class="line"><span style="color:#A6ACCD;">        System</span><span style="color:#89DDFF;">.</span><span style="color:#A6ACCD;">out</span><span style="color:#89DDFF;">.</span><span style="color:#82AAFF;">println</span><span style="color:#89DDFF;">(</span><span style="color:#89DDFF;">&quot;</span><span style="color:#C3E88D;">hello world Main2</span><span style="color:#89DDFF;">&quot;</span><span style="color:#89DDFF;">);</span></span>
 <span class="line"><span style="color:#A6ACCD;">    </span><span style="color:#89DDFF;">}</span></span>
-<span class="line"><span style="color:#89DDFF;">}</span><span style="color:#C792EA;">COPY</span></span></code></pre></div><p>这时候就会打印子类自己的内容了：<code>hello world Main2</code>。</p><p>这么来看，除了main方法作为应用程序的入口比较特殊外，其他情况下与正常的静态方法是没什么区别的。</p><pre><code>/**
- * 动态代理：
- *      1. 特点：字节码随用随创建，随用随加载
- *      2. 作用：不修改源码的基础上对方法增强
- *      3. 分类：
- *              1）基于接口的动态代理
- *                      1. 基于接口的动态代理：
- *                              1）涉及的类：Proxy
- *                              2）提供者：JDK官方
- *                              3）如何创建代理对象：
- *                                      使用Proxy类中的newProxyInstance方法
- *                              4）创建代理对象的要求
- *                                      被代理类最少实现一个接口，如果没有则不能使用
- *                              5）newProxyInstance方法的参数：
- *                                      ClassLoader：类加载器，它是用于加载代理对象字节码的。和被代理对象使用相同的类加载器。固定写法。
- *                                      Class[]：字节码数组，它是用于让代理对象和被代理对象有相同方法。固定写法。
- *                                      InvocationHandler：用于提供增强的代码，它是让我们写如何代理。我们一般都是些一个该接口的实现类，通常情况下都是匿名内部类
- *              2）基于子类的动态代理
- */
-</code></pre><h2 id="_32-int与integer的区别" tabindex="-1">32 Int与Integer的区别 <a class="header-anchor" href="#_32-int与integer的区别" aria-label="Permalink to &quot;32 Int与Integer的区别&quot;">​</a></h2><ul><li><p>Integer是int的包装类；int是基本数据类型；</p></li><li><p>Integer变量必须实例化后才能使用；int变量不需要；</p></li><li><p>Integer实际是对象的引用，指向此new的Integer对象；int是直接存储数据值 ；</p></li><li><p>Integer的默认值是null；int的默认值是0。</p></li><li><p>泛型不支持int，但是支持Integer</p></li><li><p>int 存储在栈中，Integer 对象的引用存储在栈空间中，对象的数据存储在堆空间中。</p></li></ul>`,240),e=[p];function t(c,r,y,i,D,A){return n(),a("div",null,e)}const d=s(o,[["render",t]]);export{F as __pageData,d as default};
+<span class="line"><span style="color:#89DDFF;">}</span><span style="color:#C792EA;">COPY</span></span></code></pre></div><p>这时候就会打印子类自己的内容了：<code>hello world Main2</code>。</p><p>这么来看，除了main方法作为应用程序的入口比较特殊外，其他情况下与正常的静态方法是没什么区别的。</p><h2 id="_32-int与integer的区别" tabindex="-1">32 Int与Integer的区别 <a class="header-anchor" href="#_32-int与integer的区别" aria-label="Permalink to &quot;32 Int与Integer的区别&quot;">​</a></h2><ul><li><p>Integer是int的包装类；int是基本数据类型；</p></li><li><p>Integer变量必须实例化后才能使用；int变量不需要；</p></li><li><p>Integer实际是对象的引用，指向此new的Integer对象；int是直接存储数据值 ；</p></li><li><p>Integer的默认值是null；int的默认值是0。</p></li><li><p>泛型不支持int，但是支持Integer</p></li><li><p>int 存储在栈中，Integer 对象的引用存储在栈空间中，对象的数据存储在堆空间中。</p></li></ul>`,239),e=[p];function t(c,r,y,i,D,A){return n(),a("div",null,e)}const d=s(o,[["render",t]]);export{F as __pageData,d as default};
