@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,N as o}from"./chunks/framework.0799945b.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"java/java-spring.md"}'),e={name:"java/java-spring.md"},l=o("",206),p=[l];function t(r,c,i,A,y,g){return n(),a("div",null,p)}const C=s(e,[["render",t]]);export{d as __pageData,C as default};
