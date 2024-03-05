@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,N as l}from"./chunks/framework.8fabc3de.js";const A=JSON.parse('{"title":"工厂方法","description":"","frontmatter":{},"headers":[],"relativePath":"pattern/creational-pattern.md"}'),p={name:"pattern/creational-pattern.md"},o=l("",69),e=[o];function t(c,r,y,D,B,F){return a(),n("div",null,e)}const E=s(p,[["render",t]]);export{A as __pageData,E as default};

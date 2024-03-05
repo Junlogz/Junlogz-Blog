@@ -1,1 +1,0 @@
-import{_ as a,o as s,c as e,N as n}from"./chunks/framework.afd645d4.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"java/java-mybatis.md"}'),l={name:"java/java-mybatis.md"},t=n("",89),p=[t];function o(r,i,c,d,b,y){return s(),e("div",null,p)}const q=a(l,[["render",o]]);export{m as __pageData,q as default};

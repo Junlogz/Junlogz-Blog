@@ -1,1 +1,0 @@
-import{_ as e,o as s,c as a,N as o}from"./chunks/framework.afd645d4.js";const y=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"middleware/redis.md"}'),t={name:"middleware/redis.md"},l=o("",112),r=[l];function i(n,p,d,c,h,g){return s(),a("div",null,r)}const R=e(t,[["render",i]]);export{y as __pageData,R as default};

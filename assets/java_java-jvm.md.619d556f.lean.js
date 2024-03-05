@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as l,N as n}from"./chunks/framework.8fabc3de.js";const A=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"java/java-jvm.md"}'),o={name:"java/java-jvm.md"},p=n("",74),e=[p];function t(c,r,i,D,y,B){return a(),l("div",null,e)}const E=s(o,[["render",t]]);export{A as __pageData,E as default};

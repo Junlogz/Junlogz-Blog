@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,N as l}from"./chunks/framework.8fabc3de.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"articles/4.3-4.7小记.md"}'),p={name:"articles/4.3-4.7小记.md"},e=l("",50),o=[e];function t(c,r,i,y,D,F){return a(),n("div",null,o)}const B=s(p,[["render",t]]);export{d as __pageData,B as default};
